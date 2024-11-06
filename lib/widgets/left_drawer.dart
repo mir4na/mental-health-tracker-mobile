@@ -55,10 +55,6 @@ class LeftDrawer extends StatelessWidget {
               title: const Text('Tambah Mood'),
               // Bagian redirection ke MoodEntryFormPage
               onTap: () {
-                /*
-                TODO: Buatlah routing ke MoodEntryFormPage di sini,
-                setelah halaman MoodEntryFormPage sudah dibuat.
-                */
                 Navigator.pushReplacement(
                   context, 
                   MaterialPageRoute(
